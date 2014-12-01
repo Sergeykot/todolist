@@ -12,6 +12,8 @@
 //
 //= require angular
 //= require angular-route
+//= require ngstorage
+//= require oauth-ng
 //= require main
 //= require_tree ../templates
 //= require_tree . 

@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.7'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# Use Postgres as the database for Active Record
+gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -25,7 +25,7 @@ gem 'bower-rails'
 # Sass portage for bootstrap
 gem 'bootstrap-sass'
 # Simple auth
-gem 'omniauth-google-oauth2'
+gem 'omniauth-facebook'
 # More secure configs using .env file
 gem 'dotenv-rails'
 # This one is cool with oauth also

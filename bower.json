@@ -3,7 +3,9 @@
     "name": "bower-rails generated lib assets",
     "dependencies": {
       "angular": "latest",
-      "angular-route": "latest"
+      "angular-route": "latest",
+      "oauth-ng": "latest",
+      "ngstorage": "latest"
     }
   },
   "vendor": {
